@@ -60,7 +60,7 @@ WHERE {
 }
 ```
 
-### Explore the labels describing the provenance activities
+### Explore the labels describing the [provenance activities](https://observablehq.com/d/5c732aafeeb3134e)
 ```
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/>
