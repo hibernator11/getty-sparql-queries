@@ -60,6 +60,16 @@ WHERE {
 }
 ```
 
+### Explore the labels describing the provenance activities
+```
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+select distinct ?label
+where { ?s rdf:type cidoc:E7_Activity . ?s rdfs:label ?label}
+limit 5000
+```
+
 ### Licence
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
 
