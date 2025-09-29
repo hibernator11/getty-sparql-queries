@@ -30,3 +30,4 @@ SELECT ?getty ?label WHERE {
 - https://www.moma.org/collection/provenance/
 - https://www.getty.edu/projects/getty-provenance-index-initiative/research-inspired-by-the-getty-provenance-index/
 - https://www.getty.edu/databases-tools-and-technologies/provenance/
+- https://vocab.getty.edu/tgn/
