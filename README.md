@@ -38,6 +38,20 @@ SELECT distinct ?label WHERE {
 } LIMIT 200
 ```
 
+### Exploring how the Person class is used
+
+```
+PREFIX cidoc: <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE {
+  <https://data.getty.edu/provenance/a9d2c963-7a19-3a11-91e5-beb737d03c8a> rdf:type cidoc:E21_Person .
+  <https://data.getty.edu/provenance/a9d2c963-7a19-3a11-91e5-beb737d03c8a> ?p ?obj
+} LIMIT 200
+```
+
 ### Licence
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International license</a>.
 
