@@ -81,3 +81,4 @@ Please, note that the datasets used in this project have separate licences.
 - https://www.getty.edu/databases-tools-and-technologies/provenance/
 - https://vocab.getty.edu/tgn/
 - https://observablehq.com/d/6c4d0f0ff448a165
+- https://www.openartdata.org/2025/10/dataset-getty-gpi-merged-with-wikidata.html?m=1
